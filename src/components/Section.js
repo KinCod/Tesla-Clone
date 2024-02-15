@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
+import {Fade} from 'react-awesome-reveal';
 
 function Section(props) {
   const img = {
@@ -12,7 +12,7 @@ function Section(props) {
       className="body flex flex-col justify-between items-center w-screen h-screen bg-cover bg-no-repeat bg-center z-0"
       style={img}
     >
-      <Fade bottom>
+      <Fade direction="up">
         <div className="itemText pt-[10vh] order-1 text-center ">
           <h1 className="text-5xl font-bold text-gray-700 rounded-sm z-0">{props.title}</h1>
           <p className="font-bold text-gray-700">
